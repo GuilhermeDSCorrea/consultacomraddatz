@@ -1,0 +1,6 @@
+{
+  "name": "Consulta Nutricional Luccas Raddatz",
+  "description": "Página de upsell para consulta individual online com o nutricionista Luccas Raddatz por R$ 89,90 no Projeto 21 Dias.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
