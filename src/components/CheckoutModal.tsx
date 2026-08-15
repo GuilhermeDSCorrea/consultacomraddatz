@@ -301,13 +301,18 @@ export const CheckoutModal: React.FC<Props> = ({ isOpen, onClose }) => {
           {/* STEP 3: SUCCESS CONFIRMATION */}
           {step === 'success' && (
             <div className="text-center space-y-4 py-4 animate-fade-in">
-              <div className="w-16 h-16 bg-blue-950/60 text-sky-400 border border-blue-500/30 rounded-sm flex items-center justify-center mx-auto shadow-xl">
-                <CheckCircle2 className="w-8 h-8 text-sky-400" />
+              <div className="w-16 h-16 bg-emerald-950/60 text-emerald-400 border border-emerald-500/30 rounded-full flex items-center justify-center mx-auto shadow-xl">
+                <CheckCircle2 className="w-8 h-8 text-emerald-400" />
               </div>
 
-              <h3 className="text-2xl font-serif text-white">
-                Parabéns, {fullName.split(' ')[0]}!
-              </h3>
+              <div className="space-y-1">
+                <h3 className="text-2xl sm:text-3xl font-serif font-black text-white uppercase tracking-wide">
+                  MUITO OBRIGADO!
+                </h3>
+                <p className="text-sky-300 font-medium text-xs sm:text-sm">
+                  Parabéns, {fullName.split(' ')[0]}! Oferta de Upsell Confirmada com Sucesso.
+                </p>
+              </div>
 
               <p className="text-slate-200 text-xs sm:text-sm max-w-sm mx-auto font-light">
                 Sua consulta individual com o <strong className="text-sky-300 font-medium">Nutricionista Luccas Raddatz</strong> foi reservada com sucesso para <strong className="text-white font-medium">{slotObj.dateStr} às {slotObj.timeStr}</strong>.
@@ -323,7 +328,7 @@ export const CheckoutModal: React.FC<Props> = ({ isOpen, onClose }) => {
               </div>
 
               <a
-                href={`https://wa.me/5511999999999?text=Ol%C3%A1%2C%20acabei%20de%20garantir%20minha%20consulta%20com%20o%20Nutricionista%20Luccas%20Raddatz%20por%20R%24%2089%2C90!%20Meu%20nome%20%C3%A9%20${encodeURIComponent(fullName)}`}
+                href={`https://wa.me/5553999083570?text=Ol%C3%A1%2C%20acabei%20de%20garantir%20minha%20consulta%20com%20o%20Nutricionista%20Luccas%20Raddatz%20por%20R%24%2089%2C90!%20Meu%20nome%20%C3%A9%20${encodeURIComponent(fullName)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-3.5 px-4 rounded-sm shadow-lg uppercase tracking-widest transition-all text-xs flex items-center justify-center gap-2 inline-block border border-blue-400/30"

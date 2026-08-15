@@ -68,7 +68,7 @@ export const FAQSection: React.FC = () => {
             <span>Ainda tem alguma dúvida específica? Fale com nossa equipe de suporte no WhatsApp.</span>
           </div>
           <a
-            href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20tenho%20uma%20d%C3%BAvida%20sobre%20a%20consulta%20individual%20com%20o%20Nutricionista%20Luccas%20Raddatz"
+            href="https://wa.me/5553999083570?text=Ol%C3%A1%2C%20tenho%20uma%20d%C3%BAvida%20sobre%20a%20consulta%20individual%20com%20o%20Nutricionista%20Luccas%20Raddatz"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sky-400 font-bold hover:underline shrink-0 uppercase tracking-wider text-[11px]"
