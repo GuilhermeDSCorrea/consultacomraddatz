@@ -141,9 +141,14 @@ export const HeroSection: React.FC<Props> = ({ onOpenCheckout, onDeclineClick })
 
           {/* Single Official Kiwify Upsell Container */}
           <div className="mt-8 text-center pt-6 border-t border-blue-900/40">
-            <div style={{ textAlign: 'center' }} id="kiwify-upsell-vOKFrFs" data-upsell-url="" data-downsell-url="">
+            <div
+              style={{ textAlign: 'center' }}
+              id="kiwify-upsell-BqUPN6V"
+              data-upsell-url=""
+              data-downsell-url=""
+            >
               <button
-                id="kiwify-upsell-trigger-vOKFrFs"
+                id="kiwify-upsell-trigger-BqUPN6V"
                 style={{
                   backgroundColor: '#F39C19',
                   padding: '12px 16px',
@@ -159,7 +164,7 @@ export const HeroSection: React.FC<Props> = ({ onOpenCheckout, onDeclineClick })
                 Sim, eu aceito essa oferta especial!
               </button>
               <div
-                id="kiwify-upsell-cancel-trigger-vOKFrFs"
+                id="kiwify-upsell-cancel-trigger-BqUPN6V"
                 style={{
                   marginTop: '1rem',
                   cursor: 'pointer',

@@ -32,7 +32,7 @@ export const CheckoutModal: React.FC<Props> = ({ isOpen, onClose }) => {
 
   const handleCompletePayment = () => {
     setIsProcessing(true);
-    const kiwifyTrigger = document.getElementById('kiwify-upsell-trigger-vOKFrFs');
+    const kiwifyTrigger = document.getElementById('kiwify-upsell-trigger-BqUPN6V');
     if (kiwifyTrigger) {
       kiwifyTrigger.click();
     }

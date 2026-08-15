@@ -36,7 +36,7 @@ export default function App() {
   }, [isCheckoutOpen]);
 
   const handleOpenCheckout = () => {
-    const kiwifyTrigger = document.getElementById('kiwify-upsell-trigger-vOKFrFs');
+    const kiwifyTrigger = document.getElementById('kiwify-upsell-trigger-BqUPN6V');
     if (kiwifyTrigger) {
       kiwifyTrigger.click();
     }
@@ -44,7 +44,7 @@ export default function App() {
   };
 
   const handleDeclineClick = () => {
-    const kiwifyCancel = document.getElementById('kiwify-upsell-cancel-trigger-vOKFrFs');
+    const kiwifyCancel = document.getElementById('kiwify-upsell-cancel-trigger-BqUPN6V');
     if (kiwifyCancel) {
       kiwifyCancel.click();
     } else {

@@ -65,7 +65,7 @@ export const ExitIntentModal: React.FC<Props> = ({ isOpen, onClose, onOpenChecko
           <button
             onClick={() => {
               onClose();
-              document.getElementById('kiwify-upsell-cancel-trigger-vOKFrFs')?.click();
+              document.getElementById('kiwify-upsell-cancel-trigger-BqUPN6V')?.click();
             }}
             className="text-[11px] text-slate-400 hover:text-slate-300 underline pt-1 cursor-pointer block mx-auto uppercase tracking-wider"
           >
